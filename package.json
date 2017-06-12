@@ -12,5 +12,10 @@
     "openstack"
   ],
   "author": "Carmine DiMascio <cdimascio@gmail.com> (https://github.com/cdimascio)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pkgcloud": "^1.4.0",
+    "request-promise": "^4.2.1",
+    "stream": "0.0.2"
+  }
 }

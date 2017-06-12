@@ -14,4 +14,7 @@ const client = new ObjectStorage({
   region: '<YOUR-REGION-ID>'
 });
 
-client.pipeableDownload(fs.createWriteStream('test'));
+client.pipeableDownload({
+  container: 'my-container',
+  name: 'my-file'
+}).pipe(fs.createWriteStream('test.png'));
