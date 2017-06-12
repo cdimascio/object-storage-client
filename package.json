@@ -1,5 +1,5 @@
 {
-  "name": "bm-object-storage",
+  "name": "object-storage-client",
   "version": "1.0.1",
   "description": "upload / download files from object storage",
   "main": "lib/index.js",
