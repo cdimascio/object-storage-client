@@ -1,6 +1,6 @@
 {
   "name": "bm-object-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "upload / download files from object storage",
   "main": "lib/index.js",
   "scripts": {
@@ -17,5 +17,10 @@
     "pkgcloud": "^1.4.0",
     "request-promise": "^4.2.1",
     "stream": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/cdimascio/bm-object-storage"
   }
 }
