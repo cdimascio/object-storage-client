@@ -1,0 +1,16 @@
+{
+  "name": "bm-object-storage",
+  "version": "1.0.0",
+  "description": "upload / download files from object storage",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "object-storage",
+    "bluemix",
+    "openstack"
+  ],
+  "author": "Carmine DiMascio <cdimascio@gmail.com> (https://github.com/cdimascio)",
+  "license": "MIT"
+}
