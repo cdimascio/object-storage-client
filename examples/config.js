@@ -1,7 +1,4 @@
-const fs = require('fs');
-const ObjectStorage = require('../lib');
-
-const client = new ObjectStorage({
+module.exports = {
   provider: 'openstack',
   useServiceCatalog: true,
   useInternal: false,
@@ -12,9 +9,4 @@ const client = new ObjectStorage({
   username: '<YOUR-USERNAME-ID>',
   password: '<YOUR-PASSWORD',
   region: '<YOUR-REGION-ID>'
-});
-
-client.pipeableDownload({
-  container: 'my-container',
-  name: 'my-file'
-}).pipe(fs.createWriteStream('test.png'));
+};
